@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.list);
         ((MyApplication) getApplication()).getmApiComponent().inject(this);
         getHeroes();
-        mySharedPreferences.putData("name",12);
+        mySharedPreferences.putData("name","miths");
     }
 
     private void getHeroes() {

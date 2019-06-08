@@ -12,8 +12,8 @@ public class MySharedPreferences {
         this.mSharedPreferences = mSharedPreferences;
     }
 
-    public void putData(String key, int data) {
-        mSharedPreferences.edit().putInt(key,data).apply();
+    public void putData(String key, String data) {
+        mSharedPreferences.edit().putString(key,data).apply();
     }
 
     public int getData(String key) {
